@@ -15,7 +15,7 @@
 
       const payload = { serial, latitude, longitude, time };
 
-      const response = await fetch("http://192.168.0.180:3000/modtag-lokation", {
+      const response = await fetch("https://192.168.0.180:3000/modtag-lokation", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)
