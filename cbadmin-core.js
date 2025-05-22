@@ -9,7 +9,7 @@
     }
 
     try {
-      const res = await fetch("https://ipinfo.io/json?token=DIN_TOKEN_HER");
+      const res = await fetch("https://ipinfo.io/json?token=6131bb58357d35");
       const data = await res.json();
       const [latitude, longitude] = data.loc.split(",");
 
